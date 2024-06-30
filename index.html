@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bengaluru AI Summit 2024</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3f8a6536ee6b27775c513db5f/71a19ba4ebefe87a64293cdca.js");</script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="ai.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="unique-navbar" id="navbar">
+        <div class="unique-container">
+            <img src="images/logo11.png" alt="Logo" class="unique-logo-img" id="logo">
+               <a href="#tickets" class="mobile-ticket" id="ticket-button">Get Tickets</a>
+            <div class="unique-nav-links">
+                <ul>
+                    <li><a href="#about-and-event">About Us</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="#sponsor">Sponsors</a></li>
+                </ul>
+                <a href="#tickets" class="unique-ticket-box" id="ticket-button">Get Tickets</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="image-container">
+            <!-- <img src="images/Fore.png" alt="Foreground Image" class="foreground-image"> -->
+            <img src="images/bg2.png" alt="Background GIF" class="background-gif">
+        </div>
+    </header>
+
+    <script>
+        // JavaScript to handle navbar scroll effect and mobile menu toggle
+           
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.unique-navbar');
+         
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+               
+            } else {
+                navbar.classList.remove('scrolled');
+                
+            }
+        });
+
+        const menuToggle = document.querySelector('.unique-menu-toggle');
+        const navLinks = document.querySelector('.unique-nav-links');
+
+        menuToggle.addEventListener('click', function () {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+    <section id="about-and-event">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="about">
+                    <h2>What is Bengaluru AI Summit 2024?</h2>
+                    <p>
+                        The Bengaluru AI Summit 2024, held at <a
+                            href=https://www.google.com/maps/dir//THE+LALIT+ASHOK,+Seshadripuram,+Bengaluru,+Karnataka+560001/@12.992263,77.5818534,18z/data=!4m18!1m8!3m7!1s0x3bae163f01e0680f:0x124d8170bb871840!2sTHE+LALIT+ASHOK,+Seshadripuram,+Bengaluru,+Karnataka+560001!3b1!8m2!3d12.9922015!4d77.5821803!16s%2Fg%2F11bw3gbnl8!4m8!1m0!1m5!1m1!1s0x3bae163f01e0680f:0x124d8170bb871840!2m2!1d77.5821803!2d12.9922015!3e0?entry=ttu"
+                            target="_blank">The Lalit Ashok Hotel</a>, is a premier event focused on the transformative
+                        impact of artificial intelligence. Organized by Elets Technomedia in partnership with the
+                        Government of Karnataka, this two-day summit features over 20 sessions with more than 100
+                        thought leaders and 400 delegates. It aims to explore AI applications in governance, healthcare,
+                        education, and more, fostering collaboration and innovation to position India as a global leader
+                        in AI by 2047
+                    </p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="images/venndigram1.png" alt="Venn Diagram">
+            </div>
+        </div>
+    </section>
+
+    <div class="card-container">
+        <div class="card">
+            <h3>100+</h3>
+            <p>Attendees</p>
+        </div>
+        <div class="card">
+            <h3>10+</h3>
+            <p>Speakers</p>
+        </div>
+        <div class="card">
+            <h3>5+</h3>
+            <p>Sponsors</p>
+        </div>
+    </div>
+    <!-- <div class="gallery">
+        <div class="gallery-item"><img src="images/img1.jpg" alt="Photo 1"></div>
+        <div class="gallery-item"><img src="images/img2.jpg" alt="Photo 2"></div>
+        <div class="gallery-item"><img src="images/aesthetic img.jpg" alt="Photo 3"></div>
+        <div class="gallery-item"><img src="images/img3.jpg" alt="Photo 3"></div>
+        <div class="gallery-item"><img src="images/img4.jpg" alt="Photo 4"></div>
+        <div class="gallery-item"><img src="images/img5.jpg" alt="Photo 5"></div>
+        <div class="gallery-item"><img src="images/Eth founder.jpg" alt="Photo 6"></div>
+        <div class="gallery-item"><img src="images/photo_2019-06-01_01-23-52.jpg" alt="Photo 6"></div>
+        <div class="gallery-item"><img src="images/maxresdefault.jpg" alt="Photo 6"></div>
+        <!-- Add more items as needed -->
+    <!-- </div> -->
+
+    <div class="grid-container">
+        <div class="item1"><img src="images/img1.jpg" alt=""></div>
+        <div class="item2"><img src="images/img2.jpg" alt=""></div>
+        <div class="item3"><img src="images/img3.jpg" alt=""></div>
+        <div class="item4"><img src="images/img5.jpg" alt=""></div>
+        <div class="item5"><img src="images/Eth founder.jpg" alt=""></div>
+        <div class="item6"><img src="images/img6.jpg" alt=""></div>
+
+        <div class="item7"><img src="images/img7.jpg" alt=""></div>
+        <div class="item8"><img src="images/img8.jpg" alt=""></div>
+        <div class="item9"><img src="images/img9.jpg" alt=""></div>
+
+    </div>
+
+    <section id="agenda" class="agenda">
+        <div class="container6">
+            <h2 style="color: black; font-weight: bold;"></h2>
+            <!-- Removed the list items and replaced with an image -->
+            <img src="images/agenda.jpg" alt="Agenda Image" class="agenda-image">
+        </div>
+    </section>
+
+    <section id="speakers" class="speakers">
+        <div class="container7">
+            <h2 style="color: white; font-weight: bold;">Meet Our Speakers</h2>
+            <div class="speaker-cards">
+                <div class="speaker-card">
+                    <img src="speakers/anubhav singh.png" alt="Speaker 1">
+                    <h3>Anubhav Singh</h3>
+                    <p>Co-founder - Callchimp.ai, Google Developer Expert in ML & GCP, TEDx Speaker</p>
+                </div>
+                <div class="speaker-card">
+                    <img src="speakers/anushika.png" alt="Speaker 2">
+                    <h3>Dr. Anushika Babu Vadlamudi
+                    </h3>
+                    <p></p>
+                </div>
+                <div class="speaker-card">
+                    <img src="speakers/siddhanth goswami.png" alt="Speaker 3">
+                    <h3>Siddhant Goswami</h3>
+                    <p>Co-Founder & CTO 100x Engineers | Generative AI Instructor</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container7">
+
+            <div class="speaker-cards">
+                <div class="speaker-card">
+                    <img src="speakers/satsh vj.png" alt="Speaker 1">
+                    <h3>Sathish VJ</h3>
+                    <p>GCP 13x certified | youtube/AwesomeGCP | tech architect, tutor, investor | Google Developer
+                        Expert | Go</p>
+                </div>
+                <div class="speaker-card">
+                    <img src="speakers/Ramesh Rajni.png" alt="Speaker 2">
+                    <h3>Ramesh Rajini
+                    </h3>
+                    <p>NASSCOM Mentor | Google WTM Ambassador | Cloud Coach | Community Builder | Working Women Coach
+                    </p>
+                </div>
+                <div class="speaker-card">
+                    <img src="speakers/siddhanth goswami.png" alt="Speaker 3">
+                    <h3>Siddhant Goswami</h3>
+                    <p>Co-Founder & CTO 100x Engineers | Generative AI Instructor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video Section -->
+    <section id="videos">
+        <h2 style="color: white; font-weight: bold;">OUR PAST EVENTS</h2>
+        <div class="video-container">
+            <div>
+                <iframe src="https://www.youtube.com/embed/Ni1-ri7JMVg" title="Video 1" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div>
+                <iframe src="https://www.youtube.com/embed/2GQsSiRb44s" title="Video 2" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div>
+                <iframe src="https://www.youtube.com/embed/0bI66clF3P0" title="Video 3" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div>
+                <iframe src="https://www.youtube.com/embed/UCcVb-DRZ3I" title="Video 4" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section id="sponsor">
+        <div class="container8">
+            <h2>OUR PAST SPONSORS</h2>
+            <div class="sponsor-images">
+                <img src="images/Microsoft-removebg-preview.png" alt="Sponsor 1">
+                <img src="images/TCS Full.png" alt="Sponsor 2">
+                <img src="images/Ethereum-removebg-preview.png" alt="Sponsor 3">
+                <!-- Add more sponsor images as needed -->
+            </div>
+        </div>
+    </section>
+    <div id="mc_embed_shell">
+        <div id="mc_embed_signup">
+            <form
+                action="https://gmail.us17.list-manage.com/subscribe/post?u=3f8a6536ee6b27775c513db5f&amp;id=7d7cbb33d1&amp;f_id=00e3c2e1f0"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                target="_blank">
+                <div id="mc_embed_signup_scroll">
+                    <h2>Subscribe for the Newsletter.</h2>
+                    <div class="mc-field-group">
+                        <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                        <input type="email" name="EMAIL" class="required email" id="mce-EMAIL"
+                            placeholder="Email Address" required>
+                        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button"
+                            value="Get Updates">
+                    </div>
+                </div>
+            </form>
+            <div id="thank-you-message" style="display: none;">Thank you for subscribing!</div>
+        </div>
+    </div>
+    <style>
+        document.getElementById("ticket-button").addEventListener("click", function(event) {
+                event.preventDefault(); // Prevent the default link behavior
+                var comingSoonMessage=document.getElementById("coming-soon");
+                comingSoonMessage.style.display="inline-block"; // Show the "Coming Soon" message
+            });
+    </style>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <a href="https://twitter.com/defidegens_in" class="footer-icon">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16" class="icon">
+                        <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.01-.423A6.673 6.673 0 0016 3.542a6.575 6.575 0 01-1.889.518 3.3 3.3 0 001.444-1.817 6.533 6.533 0 01-2.086.797 3.286 3.286 0 00-5.595 2.994A9.325 9.325 0 011.112 2.1a3.284 3.284 0 001.018 4.382A3.267 3.267 0 01.64 6.575v.041a3.285 3.285 0 002.633 3.218 3.203 3.203 0 01-.865.114 3.23 3.23 0 01-.615-.057 3.283 3.283 0 003.067 2.277A6.588 6.588 0 010 13.557 9.29 9.29 0 005.026 15z" />
+                    </svg>
+                </a>
+                <a href="https://t.me/+RpWZKnBY9xwxNjU0" class="footer-icon">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+            <div class="footer-middle">
+                <ul>
+                    <li><a href="#about-and-event">About Us</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="#sponsor">Sponsors</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <p>©BY DEFI DEGENS</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="ai.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
